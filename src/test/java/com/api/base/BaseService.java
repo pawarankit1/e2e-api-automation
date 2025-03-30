@@ -9,8 +9,13 @@ import io.restassured.response.Response;
 //Request specification
 //Request creation
 //Response handling
-public class BaseService {
+public class BaseService { //  Wrapper for Rest Assured
+	
 	//Defining the constant
+	//Base URI
+	//Creating the request
+	//Handling the response
+	
 	private static final String BASE_URL = "http://64.227.160.186:8080";
 	private RequestSpecification requestSpecification;
 	
@@ -21,6 +26,11 @@ public class BaseService {
 	}
 	
 	protected Response postRequest(Object payload, String endpoint)
+	{
+		return requestSpecification.contentType(ContentType.JSON).body(payload).post(endpoint);
+	}
+	
+	protected Response postRequest(String baseUrl, Object payload, String endpoint)
 	{
 		return requestSpecification.contentType(ContentType.JSON).body(payload).post(endpoint);
 	}
