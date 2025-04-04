@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-19T22:03:39 CET" name="Default suite" finished-at="2025-03-19T22:03:40 CET" duration-ms="964">
+  <suite started-at="2025-04-04T17:37:10 CEST" name="Default suite" finished-at="2025-04-04T17:37:11 CEST" duration-ms="958">
     <groups>
     </groups>
-    <test started-at="2025-03-19T22:03:39 CET" name="Default test" finished-at="2025-03-19T22:03:40 CET" duration-ms="964">
-      <class name="com.api.tests.LoginAPITest1">
-        <test-method signature="loginTest()[pri:0, instance:com.api.tests.LoginAPITest1@123ef382]" started-at="2025-03-19T22:03:39 CET" name="loginTest" description="Verfy Login API" finished-at="2025-03-19T22:03:40 CET" duration-ms="947" status="PASS">
+    <test started-at="2025-04-04T17:37:10 CEST" name="Default test" finished-at="2025-04-04T17:37:11 CEST" duration-ms="958">
+      <class name="com.api.tests.ForgotPassword">
+        <test-method signature="forgotPassword()[pri:0, instance:com.api.tests.ForgotPassword@40ef3420]" started-at="2025-04-04T17:37:10 CEST" name="forgotPassword" description="Verfy the Forgot Password functionality" finished-at="2025-04-04T17:37:11 CEST" duration-ms="942" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginTest -->
-      </class> <!-- com.api.tests.LoginAPITest1 -->
+        </test-method> <!-- forgotPassword -->
+      </class> <!-- com.api.tests.ForgotPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
